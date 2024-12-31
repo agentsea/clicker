@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "clicker"
+version = "0.1.0"
+description = "Click stuff"
+authors = ["Patrick Barker <patrickbarkerco@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+agentdesk = "^0.2.112"
+ipykernel = "^6.29.5"
+
+[tool.pyright]
+reportUnknownParameterType = false
+reportMissingTypeArgument = false
+reportUnknownMemberType = false
+reportUnknownVariableType = false
+reportUnknownArgumentType = false
+reportUnnecessaryIsInstance = false
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
